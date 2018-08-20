@@ -46,7 +46,11 @@ class RenderKanji
     "| -- | -- | -- |"
   end
 
+  def link_to_jisho(word)
+    "[#{word}](https://jisho.org/search/#{word})"
+  end
+
   def generate_row(word, chinese, japanese)
-    "| #{word} | #{chinese} | #{japanese} |"
+    "| #{link_to_jisho(word)} | #{chinese} | #{japanese} |"
   end
 end

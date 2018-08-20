@@ -7,4 +7,4 @@ require_relative "../lib/get_common_kanjis"
 require_relative "../lib/render_kanji"
 
 kanji_file_path = File.expand_path("../kanji.md", __dir__)
-RenderKanji.run(to: kanji_file_path, common_kanjis: GetCommonKanji.run["results"])
+RenderKanji.run(to: kanji_file_path, common_kanjis: GetCommonKanjis.run["results"])
