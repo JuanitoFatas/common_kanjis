@@ -4,6 +4,8 @@ Data from [MJ文字情報API][mojikiban] of [IPA Information-technology Promotio
 
 As of August 20, 2018, there are 2136 common kanjis.
 
+You can see the 2136 kanjis [here](kanji.md).
+
 ## `common_kanjis.json` Format
 
 ```json
